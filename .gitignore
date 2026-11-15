@@ -1,0 +1,7 @@
+.cache/
+.rustup/
+.cargo/
+__pycache__/
+*.pyc
+node_modules/
+dist/
