@@ -6,7 +6,7 @@ services:
     ports:
       - 8092:5173
     environment:
-      VITE_API_URL: http://127.0.0.1:8090
+      VITE_API_URL: http://192.168.56.101:8090
     volumes:
       - ./services/frontend/src/:/app/src/
       - ./services/frontend/public/:/app/public/
